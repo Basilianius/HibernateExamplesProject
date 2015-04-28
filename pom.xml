@@ -5,11 +5,17 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>by.basilianius</groupId>
-    <artifactId>learning.hibernate</artifactId>
+    <artifactId>HibernateExampleProject</artifactId>
     <version>1.0-SNAPSHOT</version>
     <url>http://maven.apache.org</url>
 
     <dependencies>
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <version>3.8.1</version>
+            <scope>test</scope>
+        </dependency>
 
         <!-- MySQL database driver -->
         <dependency>
@@ -18,17 +24,11 @@
             <version>5.1.9</version>
         </dependency>
 
-        <dependency>
-            <groupId>javassist</groupId>
-            <artifactId>javassist</artifactId>
-            <version>3.12.1.GA</version>
-        </dependency>
-
         <!-- Hibernate framework -->
         <dependency>
-            <groupId>org.hibernate</groupId>
-            <artifactId>hibernate</artifactId>
-            <version>3.2.7.ga</version>
+            <groupId>hibernate</groupId>
+            <artifactId>hibernate3</artifactId>
+            <version>3.2.3.GA</version>
         </dependency>
 
 
@@ -65,5 +65,4 @@
         </dependency>
 
     </dependencies>
-
 </project>
